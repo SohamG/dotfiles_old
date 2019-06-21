@@ -1,0 +1,8 @@
+[user]
+	email = sohamg2@gmail.com
+	name = sohamg
+	signingkey = C20A676A5874AE0E
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
