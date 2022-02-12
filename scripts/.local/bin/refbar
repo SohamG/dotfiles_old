@@ -1,0 +1,5 @@
+# vim:set filetype=bash
+#PID=$(ps aux | grep dwm-status | awk '{print $2}'| head -n 1)
+pkill -f dwm-status
+dwm-status 2>&1 > /dev/null &
+
